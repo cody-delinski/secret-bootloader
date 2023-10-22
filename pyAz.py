@@ -4,10 +4,10 @@
 from azure.storage.blob import BlobServiceClient
 import sys
 
-storage_account_key = "5HP4HoRNk0iezDenRwm3vKhjLIxNblXICn4oPSrefQsmHNjdoZiX8D/LH5hwTkj0rMJH3YI4FPYt+ASta0t/Mw=="
-storage_account_name = "secretbootloader"
-connection_string = "DefaultEndpointsProtocol=https;AccountName=secretbootloader;AccountKey=5HP4HoRNk0iezDenRwm3vKhjLIxNblXICn4oPSrefQsmHNjdoZiX8D/LH5hwTkj0rMJH3YI4FPYt+ASta0t/Mw==;EndpointSuffix=core.windows.net"
-container_name = "secret"
+storage_account_key = ""
+storage_account_name = ""
+connection_string = ""
+container_name = ""
 
 if len(sys) < 2:
     print("Usage:"\n)
